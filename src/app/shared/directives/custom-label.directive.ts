@@ -44,7 +44,7 @@ export class CustomLabelDirective implements OnInit {
     console.log(errors)
 
     if (errors.includes('required')) {
-      this.htmlElement.nativeElement.innerText = ' Este campo es requerido'
+      this.htmlElement.nativeElement.innerText = ' Este campo es requerido.'
       return;
     }
 
@@ -54,7 +54,7 @@ export class CustomLabelDirective implements OnInit {
       return;
     }
     if (errors.includes('email')) {
-      this.htmlElement.nativeElement.innerText = 'Este campo debe tener formato de email'
+      this.htmlElement.nativeElement.innerText = 'Este campo debe tener formato de email.'
       return;
     }
 
